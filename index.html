@@ -7,8 +7,9 @@
 <body id= "main">
   <button class="divButton" onclick="toggleDiv()"> Hide this div </button>
   <button class= "divButton" onclick="toggleAllDivs()"> Hide ALL divs </button>
+  <button id = "toggleHeader" class= "divButton" onclick="toggleHeader()"> Center Header 1 </button>
   <div class= "container" id= "coolDiv">
-        <h1>Header 1 <!--<input type= "button" onclick= "change()" value="Change"></input>--> </h1>
+        <h1 id= "header1">Header 1 <!--<input type= "button" onclick= "change()" value="Change"></input>--> </h1>
         <h2>Header 2 </h2>
         <h3>Header 3 </h3>
         <h4>Header 4 </h4>
@@ -18,6 +19,11 @@
     <h1>Some other Header 1</h1>
   </div>
   <div id= "hexed">
+    <ul class= "clocked">
+      <li id= "hours"></li>
+      <li id= "minutes"></li>
+      <li id= "seconds"></li>
+    </ul>
   </div>
 <!-- White Space -->
   <script src = "index.js"></script>

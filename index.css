@@ -80,3 +80,18 @@ hr {
 .hideDiv {
   display: none;
 }
+
+#hexed {
+  text-align: center;
+  border-top-right-radius: 60%;
+  border-top-left-radius: 15%;
+  border-bottom-left-radius: 65%;
+  border-bottom-right-radius: 15%;
+}
+
+li {
+  font-size: 250px;
+  color: white;
+  list-style: none;
+  display: inline-block;
+}
